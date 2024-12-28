@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   ],
 
   routeRules: {
-    '/': { prerender: true }
+    '/': { redirect: '/feed' },
   },
 
   compatibilityDate: '2024-12-27'
