@@ -64,4 +64,14 @@ Timeline of my Experiencie
   time: 2022 - 2023
   ---
   :::
+
+#title_of_skills_section
+Skills!
+#skills_section
+    :::skill
+    ---
+    value: 90
+    label: Javascript
+    ---
+    :::
 ::
