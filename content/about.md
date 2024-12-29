@@ -67,59 +67,60 @@ Timeline of my Experiencie
 
 #title_of_skills_section
 Skills!
+
 #skills_section
-    :::skill
-    ---
-    value: 90
-    label: Javascript
-    ---
-    :::
-    :::skill
-    ---
-    value: 90
-    label: Python
-    ---
-    :::
-    :::skill
-    ---
-    value: 90
-    label: Quasar
-    ---
-    :::
-    :::skill
-    ---
-    value: 85
-    label: Nuxt3
-    ---
-    :::
-    :::skill
-    ---
-    value: 85
-    label: Typescript
-    ---
-    :::
-    :::skill
-    ---
-    value: 85
-    label: Tailwind
-    ---
-    :::
-    :::skill
-    ---
-    value: 80
-    label: Git and Git Flow
-    ---
-    :::
-    :::skill
-    ---
-    value: 50
-    label: Django
-    ---
-    :::
-    :::skill
-    ---
-    value: 50
-    label: Linux
-    ---
-    :::
+  :::skill
+  ---
+  value: 90
+  label: Javascript
+  ---
+  :::
+  :::skill
+  ---
+  value: 90
+  label: Python
+  ---
+  :::
+  :::skill
+  ---
+  value: 90
+  label: Quasar
+  ---
+  :::
+  :::skill
+  ---
+  value: 85
+  label: Nuxt3
+  ---
+  :::
+  :::skill
+  ---
+  value: 85
+  label: Typescript
+  ---
+  :::
+  :::skill
+  ---
+  value: 85
+  label: Tailwind
+  ---
+  :::
+  :::skill
+  ---
+  value: 80
+  label: Git and Git Flow
+  ---
+  :::
+  :::skill
+  ---
+  value: 50
+  label: Django
+  ---
+  :::
+  :::skill
+  ---
+  value: 50
+  label: Linux
+  ---
+  :::
 ::
