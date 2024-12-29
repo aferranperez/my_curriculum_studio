@@ -2,7 +2,7 @@
     <article
         class="flex flex-col gap-y-2 p-4 rounded-2xl"
         :class="theme ? 'hover:bg-gray-800' : 'hover:bg-slate-100'">
-            <div v-if="is_pinned" class="flex items-center py-5">
+            <!-- <div v-if="is_pinned" class="flex items-center py-5">
                 <div class="flex-initial w-5">
                     <Icon
                         name="mdi:pin"
@@ -11,7 +11,7 @@
                         />
                 </div>
                 <p class="w-64 text-sm text-gray-900" :class="theme ? 'text-white' : 'text-black'">Pinned Cheep</p>
-            </div>
+            </div> -->
             <div class="flex flex-col lg:flex-row gap-x-4">
                 <div class="avatar placeholder h-12 mb-4">
                     <div class="bg-neutral text-neutral-content rounded-full w-12">
