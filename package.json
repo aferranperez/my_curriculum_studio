@@ -17,6 +17,8 @@
   },
   "devDependencies": {
     "@iconify-json/devicon": "^1.2.62",
+    "@iconify-json/logos": "^1.2.11",
+    "@iconify-json/mdi": "^1.2.3",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "daisyui": "^4.12.23"
   }

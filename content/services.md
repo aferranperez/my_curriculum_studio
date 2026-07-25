@@ -3,7 +3,7 @@
 technologies:
 - icon: logos:python
   title: Python
-- icon: logos:golang
+- icon: devicon:go
   title: Go (Golang)
 - icon: logos:postgresql
   title: PostgreSQL

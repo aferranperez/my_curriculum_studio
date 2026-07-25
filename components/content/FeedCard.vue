@@ -40,10 +40,13 @@
                     <p class="mb-4 leading-relaxed" :class="theme ? 'text-gray-300' : 'text-gray-600'">
                         <slot name="description"/>
                     </p>
-                    <picture class="overflow-hidden rounded-xl">
-                        <NuxtImg class="rounded-xl w-full transition-transform duration-500 hover:scale-[1.02]" width="800px" height="500px" :src="src" loading="lazy"/>
+                    <picture 
+                        class="overflow-hidden rounded-xl cursor-pointer select-none relative group/img"
+                        @dblclick="handleImageDblClick"
+                    >
+                        <NuxtImg class="rounded-xl w-full transition-transform duration-500 group-hover/img:scale-[1.02]" width="800px" height="500px" :src="src" loading="lazy"/>
                     </picture>
-                    <ShareBox/>
+                    <ShareBox ref="shareBoxRef"/>
                 </div>
             </div>
     </article>
@@ -51,12 +54,19 @@
 
 <script setup lang="ts">
     const theme = useState('theme');
+    const shareBoxRef = ref<any>(null)
     
     const { src, badges, is_pinned=false } = defineProps<{
         src: string,
         badges: [],
         is_pinned: boolean
     }>()
+
+    const handleImageDblClick = (event: MouseEvent) => {
+        if (shareBoxRef.value) {
+            shareBoxRef.value.triggerLike(event)
+        }
+    }
 </script>
 
 <style scoped>
