@@ -1,88 +1,112 @@
 ::service
 ---
 technologies:
+- icon: logos:python
+  title: Python
+- icon: logos:golang
+  title: Go (Golang)
+- icon: logos:postgresql
+  title: PostgreSQL
+- icon: devicon:oracle
+  title: Oracle DB
+- icon: logos:django-icon
+  title: Django
+- icon: skill-icons:fastapi
+  title: FastAPI
+---
+#title
+Backend Development
+
+#description
+I design, build, and support robust APIs and microservices using Python (Django, FastAPI) and Go. Experienced in creating secure database architectures with PostgreSQL and Oracle, and writing custom tools for automated data migration and cleaning.
+::
+
+::service
+---
+technologies:
+- icon: devicon:azure
+  title: Azure
+- icon: logos:aws
+  title: AWS
+- icon: logos:terraform-icon
+  title: Terraform
+- icon: devicon:azuredevops
+  title: Azure DevOps
+- icon: devicon:githubactions
+  title: GitHub Actions
+- icon: logos:docker-icon
+  title: Docker
+---
+#title
+Cloud Infrastructure & DevOps
+
+#description
+I support, deploy, and scale cloud environments on Microsoft Azure and AWS. I construct automations for deployments using multi-stage CI/CD pipelines in Azure DevOps and GitHub Actions, write Infrastructure as Code (IaC) with Terraform, and configure cloud networks.
+::
+
+::service
+---
+technologies:
+- icon: devicon:cloudflare
+  title: Cloudflare Workers
+- icon: logos:grafana
+  title: Grafana
+- icon: logos:linux-tux
+  title: Linux SysAdmin
+- icon: logos:nginx
+  title: Nginx
+- icon: logos:git-icon
+  title: Git / Git Flow
+---
+#title
+Systems Engineering & Monitoring
+
+#description
+I build geolocation and request-filtering tools using Cloudflare Workers, manage Linux servers configured with Nginx / uWSGI, and integrate external APIs with Grafana to build real-time monitoring and observability dashboards.
+::
+
+::service
+---
+technologies:
 - icon: logos:vue
-  title: Vue
+  title: Vue.js
 - icon: logos:nuxt-icon
   title: Nuxt3
 - icon: logos:tailwindcss-icon
   title: Tailwind
 - icon: devicon:quasar
-  title: Quasar
+  title: Quasar UI
 - icon: logos:pinia
   title: Pinia
 - icon: logos:typescript-icon
-  title: Typescript
+  title: TypeScript
 ---
 #title
-Frontend
+Frontend Development
 
 #description
-I care about creating pleasing interfaces, 
-creating layouts that respond perfectly to different screens and optimizing performance to deliver a quality user experience.
+I develop responsive, performance-optimized, and beautiful user interfaces and dashboards using Vue 3, Nuxt 3, TypeScript, and modern styling utilities.
 ::
 
 ::service
 ---
 technologies:
-- icon: skill-icons:vercel-dark
-  title: Vercel
-- icon: vscode-icons:file-type-light-netlify
-  title: Netlify
-- icon: mdi:github
-  title: Github
----
-#title
-DevOps
-
-#description
-My priority is to implement robust CI/CD workflows with GitHub Actions, set up previews in Vercel/Netlify.
-::
-
-::service
----
-technologies:
-- icon: logos:typescript-icon
-  title: Typescript
-- icon: skill-icons:wordpress
-  title: WordPress
-- icon: logos:postgresql
-  title: Postgres
-- icon: vscode-icons:file-type-node
-  title: Node.js
-- icon: logos:python
-  title: Python
-- icon: logos:django-icon
-  title: Django
-- icon: skill-icons:supabase-dark
-  title: Supabase
----
-#title
-Backend
-
-#description
-I am a backend developer, with knowledge in SQL. I use headless CMS like Wordpress to design and build flexible and scalable content solutions.
-::
-
-::service
----
-technologies:
-- icon: logos:python
-  title: Python
 - icon: logos:tensorflow
-  title: Tensorflow
+  title: TensorFlow
 - icon: devicon:keras
   title: Keras
 - icon: devicon:opencv
   title: OpenCV
 - icon: devicon:numpy
-  title: Numpy
+  title: NumPy
+- icon: devicon:pandas
+  title: Pandas
 - icon: devicon:matplotlib
   title: Matplotlib
 ---
 #title
-Data Engineering & Computer Vision
+Data Science & Computer Vision
 
 #description
-I am fascinated by the mixture of these fields to create applications for different purposes. From image processing to the training of neural networks to create efficient models.
+I implement machine learning and computer vision systems using Python. Experienced in training convolutional neural networks with TensorFlow and Keras on high-performance computing clusters and developing OpenCV recognition algorithms.
 ::

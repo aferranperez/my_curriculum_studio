@@ -1,98 +1,55 @@
 ::about-page
 #title_of_timeline_section
-Timeline of my Experiencie
+Timeline of my Experience
 
 #timeline_section
   :::time-line
   ---
-  company: Freelancer
-  description: <li>Implementation of websites using Javascript technologies such
-    as Vue3, Nuxt3 and React JS.</li><li>Development of microservices architecture
-    to separate frontend logic from backoffice logic.</li><li>Content management
-    using Wordpress and integrating it with custom sites developed in
-    Nuxt3.</li><li>Implementation of fast, scalable and flexible
-    sites.</li><li>Creation of SEO friendly applications, using different types of
-    rendering provided by Nuxt3.</li>
-  location: Cuba / Portugal
-  position: Software Developer
-  time: 2022 - Present
+  company: Newhotel
+  description: <li>Developed automation workflows using Azure DevOps and GitHub Actions to streamline repetitive tasks and deployments.</li><li>Built internal tools in Python and Go for data migration and automated data cleaning.</li><li>Implemented geolocation systems with Cloudflare Workers to assist in traffic filtering.</li><li>Supported the management and scaling of Azure infrastructure (App Services, Function Apps, Blob Storage) and VNET configurations.</li><li>Integrated APIs with Grafana for real-time service monitoring.</li>
+  location: Portugal (Remote)
+  position: Cloud & Systems Engineer
+  time: Jan 2025 - Act
+  ---
+  :::
+
+  :::time-line
+  ---
+  company: Freelance
+  description: <li>Built scalable APIs using Python, Django, and FastAPI for various web applications.</li><li>Configured Nginx and uWSGI servers for production environments within AWS.</li><li>Designed data storage solutions using PostgreSQL to handle transactional data.</li>
+  location: Portugal / Cuba
+  position: Full-Stack Developer
+  time: Mar 2021 - Jan 2024
   ---
   :::
 
   :::time-line
   ---
   company: Assetmindr
-  description: <li>Use of frameworks such as Nuxt3 and
-    SvelteKit.</li><li>Implementation of AWS Lambdas Functions using
-    Python.</li><li>Implement user interfaces using Tailwind and DaisyUI.</li><li>
-    Use of libraries such as ChartJS and Apexchart to implement different types of
-    graphs. </li><li>Develop a cloud-based solution for the management and
-    optimization of multifamily assets.</li><li>Development of a dashboard with
-    graphs, tables and personalized alerts, to improve data reading and
-    analysis.</li><li>Integration with AWS services.</li>
-  location: Estados Unidos
-  position: Frontend Developer
-  time: 2023 - 2024
+  description: <li>Contributed to frontend development using Vue.js to create and maintain interactive components.</li><li>Developed server logic and APIs using AWS Lambda and the Serverless Framework.</li><li>Integrated secure authentication services with AWS Cognito.</li><li>Created data visualizations for interactive dashboards.</li>
+  location: United States (Remote)
+  position: Full-Stack Developer
+  time: Jan 2023 - Feb 2024
   ---
   :::
 
   :::time-line
   ---
-  company: Connus Shop
-  description: <li>Creation of scripts in PHP and Javascript for the maintenance
-    of the store.</li><li>Creation of a new frontend for the store, using Nuxt3
-    and Storefront UI.</li><li>Administration of a system based on
-    Woocomerce.</li><li>Integration of the system with an ERP, to synchronize all
-    orders, products and clients.</li><li>SEO tasks using Yoast SEO, Google
-    Analytics and Google Search Console.</li>
-  location: Panamá
-  position: Soft. Developer and Systems Administrator
-  time: 2022 - 2023
+  company: Connus Online Shop
+  description: <li>Automated Linux system administration tasks using Python scripts (os, subprocess, sys).</li><li>Developed security scripts for network vulnerability monitoring and system testing.</li>
+  location: Panama (Remote)
+  position: Python Developer
+  time: Mar 2022 - Jan 2024
   ---
   :::
 
   :::time-line
   ---
-  company: Ministry of Higher Education in Cuba
-  description: <li>Deployment and maintenance of Linux-based
-    servers.</li><li>Detection of network vulnerabilities, using Nmap, Kali Linux,
-    Wireshark and Metasploit.</li><li>Creation of Python scripts to automate
-    processes on the servers.</li><li>Manage the network using tools like Zabbix
-    and pfSense</li>
+  company: Technological University of Havana
+  description: <li>Implemented Machine Learning and computer vision algorithms (OpenCV) for access control systems.</li><li>Trained convolutional neural networks on HPC clusters using TensorFlow and Keras.</li>
   location: Cuba
-  position: ICT Systems Administrator
-  time: 2022 - 2023
+  position: Data Scientist
+  time: Sep 2018 - Sep 2022
   ---
-  :::
-
-#title_of_skills_section
-Skills!
-
-#skills_section
-  :::skill{:value='90' label="Javascript"}
-  :::
-
-  :::skill{:value='90' label="Python"}
-  :::
-
-  :::skill{:value='90' label="Quasar"}
-  :::
-
-  :::skill{:value='85' label="Nuxt3"}
-  :::
-
-  :::skill{:value='85' label="Typescript"}
-  :::
-
-  :::skill{:value='85' label="Tailwind"}
-  :::
-
-  :::skill{:value='80' label="Git and Git Flow"}
-  :::
-
-  :::skill{:value='50' label="Django"}
-  :::
-
-  :::skill{:value='50' label="Linux"}
   :::
 ::

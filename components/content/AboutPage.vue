@@ -7,9 +7,5 @@
         
         <h2 class="mb-2 font-bold text-3xl text-fluid-2"><slot name="title_of_timeline_section"/></h2>
         <div class="mb-6"><slot name="timeline_section"/></div>
-        <h2 class="mb-2 font-bold text-3xl text-fluid-2"><slot name="title_of_skills_section"/></h2>
-        <div class="grid grid-cols-3 justify-items-center gap-y-4 gap-x-3 lg:gap-20 py-5 mb-6 lg:grid-cols-6">
-            <slot name="skills_section"/>
-        </div>
     </div>
 </template>

@@ -1,6 +1,29 @@
 ::feed-card
 ---
 badges:
+  - Azure
+  - Cloud Architecture
+  - Azure DevOps
+  - Terraform
+  - Kubernetes
+  - CI/CD
+  - Infrastructure as Code
+src: post_azure_cloud.jpg
+is_pinned: true
+---
+#created_at
+15/07/2026
+
+#title
+Cloud Architecture & DevOps Engineering on Microsoft Azure
+
+#description
+Led the design and implementation of end-to-end cloud infrastructure on Microsoft Azure, covering the full lifecycle from resource provisioning to production deployment. Designed scalable architectures using Azure Kubernetes Service (AKS), Azure App Services, Azure Functions, and Virtual Networks with proper subnet segmentation and Network Security Groups. Built robust CI/CD pipelines in Azure DevOps with multi-stage YAML pipelines, including automated testing, artifact publishing, and environment-specific deployments (dev, staging, production). Managed Infrastructure as Code using Terraform and ARM templates for repeatable, version-controlled resource provisioning. Implemented monitoring and observability with Azure Monitor, Application Insights, and Log Analytics workspaces. Configured Azure Key Vault for secrets management, Azure Front Door for global load balancing, and Azure Container Registry for containerized workloads. Contributed to cost optimization strategies through reserved instances, auto-scaling policies, and resource tagging governance.
+::
+
+::feed-card
+---
+badges:
   - Facial Recognition
   - Internet of Things
   - Python Developer
